@@ -1,0 +1,10 @@
+*{font-family:'Source Sans Pro',sans-serif}
+html,body{height:100%}
+body{background:#ddd;display:flex;flex-direction:column;justify-content:center;align-items:center}
+svg{background:#888;box-shadow:0 3px 15px rgba(0,0,0,.2);border-radius:5px;padding:10px}
+.bar{background:#2b7a78;border-color:#2b7a78;fill:#2b7a78}
+.dot:hover{fill:#ddd}
+g{color:#ddd}
+#tooltip{visibility:hidden;height:auto;width:auto;margin:5px 0;color:#888;font-size:24px}
+#legend{margin:5px 0;color:#888;font-size:18px;text-align:center}
+#title{font-size:28px;fill:#ddd;text-transform:uppercase}
